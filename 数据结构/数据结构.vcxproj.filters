@@ -21,5 +21,8 @@
     <ClCompile Include="取值.c">
       <Filter>源文件\单链表-复杂操作</Filter>
     </ClCompile>
+    <ClCompile Include="取值.cpp">
+      <Filter>源文件\单链表-复杂操作</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
