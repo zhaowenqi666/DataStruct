@@ -16,6 +16,9 @@
     <Filter Include="源文件\单链表-复杂操作">
       <UniqueIdentifier>{fc18f982-6c3b-4af5-82c2-c4eb4a317516}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\单链表-按值查找">
+      <UniqueIdentifier>{b63065b3-3ed3-421c-a6e7-bc05bcf87eff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="取值.c">
@@ -23,6 +26,12 @@
     </ClCompile>
     <ClCompile Include="取值.cpp">
       <Filter>源文件\单链表-复杂操作</Filter>
+    </ClCompile>
+    <ClCompile Include="按值查找.cpp">
+      <Filter>源文件\单链表-按值查找</Filter>
+    </ClCompile>
+    <ClCompile Include="按值查找.c">
+      <Filter>源文件\单链表-按值查找</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
