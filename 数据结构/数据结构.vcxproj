@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="单链表-插入.c" />
+    <ClCompile Include="单链表-插入.cpp" />
     <ClCompile Include="取值.c" />
     <ClCompile Include="取值.cpp" />
     <ClCompile Include="按值查找.c" />
