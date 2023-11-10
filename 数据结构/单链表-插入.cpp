@@ -12,6 +12,19 @@ void insertAtHead(Node*& head, int data) {
     newNode->next = head->next;
     head->next = newNode;
 }
+//在L中第i个元素之前插入数据元素e
+bool insertFront(Node* L, int i, int e) {
+    Node* p = L; int j = 0;
+    while (p && j < i - 1) {
+        p = p->next;
+        ++j;
+    }
+    if (!p || j > i - 1) return false;
+    Node* s = new Node(e);
+    s->data = e;
+    s->next = p->next;
+    p->next = s;
+}
 
 int main() {
     // 创建头结点
